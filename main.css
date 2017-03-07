@@ -1,3 +1,7 @@
+body {
+  margin: 0px;
+}
+
 .cover {
     background-image: url("img/1.jpg");
     background-size: cover;
@@ -6,6 +10,8 @@
     }
 
 .title {
+  display: inline-block;
+  width: 35%;
   color:orangered;
   font-size:20pt;
   padding:25px;
@@ -13,16 +19,11 @@
 }
 
 .line {
+  display: inline-block;
   color:orangered;
   padding-top:25px;
-  white-space:no-wrap;
-  overflow:hidden;
+  width: 30%;
   text-align:center;
-}
-
-.row {
-     margin-right: 0px; 
-     margin-left: 0px; 
 }
 
 .footer {
@@ -38,4 +39,14 @@
     text-align: center;
     vertical-align: bottom;
   /*background-color: deeppink;    */
+}
+
+.center-content {
+  display: inline-block;
+  width: 65%;
+}
+
+.sideSpace {
+  display: inline-block;
+  width:16%;
 }
